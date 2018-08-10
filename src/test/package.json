@@ -1,0 +1,26 @@
+{
+  "name": "CLA-Integration-Test-Automation",
+  "description": "Test automation project delivered by CLA Integration team",
+  "version": "1.0.0",
+  "author": "Peter Sova",
+  "license": "MIT",
+  "scripts": {
+    "protractor-execution": "gulp protractor-execution"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "cucumber": "^1.2.1",
+    "protractor": "5.3.0",
+    "protractor-cucumber-framework": "4.2.0",
+    "gulp": "^3.9.1",
+    "gulp-protractor": "^2.4.0",
+    "gulp-unzip": "1.0.0",
+    "fs-extra": "^6.0.1",
+    "cucumber-html-reporter": "4.0.2",
+    "sync-request": "3.0.0",
+    "rest_sql_facade": "file:./rest_sql_facade",
+    "data": "file:./data",
+    "pages": "file:./pages"
+  }
+}

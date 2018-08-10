@@ -1,0 +1,11 @@
+# folders
+node_modules/
+node/
+results/
+browser/
+webdriver/
+
+# file types
+.idea
+*.iml
+*.log
